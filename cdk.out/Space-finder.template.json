@@ -239,7 +239,7 @@
     "aws:cdk:path": "Space-finder/SpaceApi/Default/hello/GET/Resource"
    }
   },
-  "SpaceTableA2492A9A": {
+  "SpacesTable8A997355": {
    "Type": "AWS::DynamoDB::Table",
    "Properties": {
     "KeySchema": [
@@ -258,12 +258,12 @@
      "ReadCapacityUnits": 5,
      "WriteCapacityUnits": 5
     },
-    "TableName": "SpaceTable"
+    "TableName": "SpacesTable"
    },
    "UpdateReplacePolicy": "Retain",
    "DeletionPolicy": "Retain",
    "Metadata": {
-    "aws:cdk:path": "Space-finder/SpaceTable/Resource"
+    "aws:cdk:path": "Space-finder/SpacesTable/Resource"
    }
   },
   "helloLambdaNodeJsServiceRole17C143C3": {

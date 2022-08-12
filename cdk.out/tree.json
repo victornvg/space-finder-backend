@@ -368,13 +368,13 @@
               "version": "2.37.0"
             }
           },
-          "SpaceTable": {
-            "id": "SpaceTable",
-            "path": "Space-finder/SpaceTable",
+          "SpacesTable": {
+            "id": "SpacesTable",
+            "path": "Space-finder/SpacesTable",
             "children": {
               "Resource": {
                 "id": "Resource",
-                "path": "Space-finder/SpaceTable/Resource",
+                "path": "Space-finder/SpacesTable/Resource",
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::DynamoDB::Table",
                   "aws:cdk:cloudformation:props": {
@@ -394,7 +394,7 @@
                       "readCapacityUnits": 5,
                       "writeCapacityUnits": 5
                     },
-                    "tableName": "SpaceTable"
+                    "tableName": "SpacesTable"
                   }
                 },
                 "constructInfo": {
@@ -404,7 +404,7 @@
               },
               "ScalingRole": {
                 "id": "ScalingRole",
-                "path": "Space-finder/SpaceTable/ScalingRole",
+                "path": "Space-finder/SpacesTable/ScalingRole",
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.Resource",
                   "version": "2.37.0"

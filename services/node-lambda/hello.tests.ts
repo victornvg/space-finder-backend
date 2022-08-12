@@ -1,3 +1,3 @@
-import { handler } from './hello'
+import { handler } from '../SpacesTable/Create'
 
-handler({}, {})
+handler({} as any, {} as any)
