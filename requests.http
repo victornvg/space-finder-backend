@@ -2,11 +2,17 @@
 GET {{endpoint}}/hello
 ###
 
+GET {{endpoint}}/spaces?spaceId=1706d865-d332-451f-8980-0ce65c4a94af
+###
+
+GET {{endpoint}}/spaces?location=London
+###
+
 POST {{endpoint}}/spaces
 Content-Type: application/json
 
 {
-    "location": "London",
-    "name": "Best location" 
+    "location": "Londonzz",
+    "name": "Best locationzzz" 
 }
 ###

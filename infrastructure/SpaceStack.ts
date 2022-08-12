@@ -33,5 +33,6 @@ export class SpaceStack extends Stack {
 
         const spaceResource = this.api.root.addResource('spaces')
         spaceResource.addMethod('POST', this.spacesTable.createLambdaIntegration)
+        spaceResource.addMethod('GET', this.spacesTable.readLambdaIntegration)
     }
 }
