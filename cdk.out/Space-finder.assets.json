@@ -27,6 +27,32 @@
         }
       }
     },
+    "df8b3e04d0f842621b5e8fa87e18c51d2e2f5a09c19e3b220fdf9962cae32812": {
+      "source": {
+        "path": "asset.df8b3e04d0f842621b5e8fa87e18c51d2e2f5a09c19e3b220fdf9962cae32812",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "df8b3e04d0f842621b5e8fa87e18c51d2e2f5a09c19e3b220fdf9962cae32812.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "a0e9e49a0fd8626c1dc45c5c5597d25e4a9871f1c48fcf1e91ff03a77d297c6e": {
+      "source": {
+        "path": "asset.a0e9e49a0fd8626c1dc45c5c5597d25e4a9871f1c48fcf1e91ff03a77d297c6e",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "a0e9e49a0fd8626c1dc45c5c5597d25e4a9871f1c48fcf1e91ff03a77d297c6e.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
     "6f4bb9cc9a4b613b33861c8ca4979237003043d85913b28df42b7cd8671591e0": {
       "source": {
         "path": "asset.6f4bb9cc9a4b613b33861c8ca4979237003043d85913b28df42b7cd8671591e0",
@@ -40,7 +66,7 @@
         }
       }
     },
-    "369dc00494b40ee14af9359163761d1386aadb5f58d50b5de029b4a21a965448": {
+    "e582539105d87132ac21a7037b617a823e34dd55c67ae7a60e1c4f2600babf44": {
       "source": {
         "path": "Space-finder.template.json",
         "packaging": "file"
@@ -48,7 +74,7 @@
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "369dc00494b40ee14af9359163761d1386aadb5f58d50b5de029b4a21a965448.json",
+          "objectKey": "e582539105d87132ac21a7037b617a823e34dd55c67ae7a60e1c4f2600babf44.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }
